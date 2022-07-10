@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Signup</title>
+
+    <link rel="icon" href="./images/logo.png">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body class="text-center">
+    <main class="form-signin w-100 m-auto">
+      <form action="/" method="post">
+        <img class="mb-4" src="./images/logo.png" alt="" width="90" height="72">
+        <h1 class="h3 mb-3 fw-normal">Sign Up</h1>
+        <div class="form-floating">
+          <input type="text" autocomplete=off name=firstName class="form-control top" id="floatingFirstName" placeholder="First Name" required autofocus>
+          <label for="floatingFirstName">First Name</label>
+        </div>
+        <div class="form-floating">
+          <input type="text" autocomplete=off name=lastName class="form-control middle" id="floatingLastName" placeholder="Last Name" required>
+          <label for="floatingLastName">Last Name</label>
+        </div>
+        <div class="form-floating">
+          <input type="email" autocomplete=off name=email class="form-control bottom" id="floatingEmail" placeholder="Email" required>
+          <label for="floatingEmail">Email</label>
+        </div>
+        <button class="w-100 btn btn-lg btn-outline-dark border-2 border-dark" type="submit">Sign Me Up!</button>
+        <p class="mt-5 mb-3 text-muted">&copy; Spencer Daniel</p>
+      </form>
+    </main>
+  </body>
+</html>
